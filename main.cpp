@@ -28,7 +28,6 @@ void print_ERROR(int error_code){
 int main(){
     std::vector<fig*> figs;
     for( ; ; ){
-        std::cout << ">";
         char com1[40];
         std::cin >> com1;
 

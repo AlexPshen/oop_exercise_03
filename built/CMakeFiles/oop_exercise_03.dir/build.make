@@ -46,7 +46,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/ap/oop3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ap/oop3
+CMAKE_BINARY_DIR = /home/ap/oop3/built
 
 # Include any dependencies generated for this target.
 include CMakeFiles/oop_exercise_03.dir/depend.make
@@ -58,8 +58,8 @@ include CMakeFiles/oop_exercise_03.dir/progress.make
 include CMakeFiles/oop_exercise_03.dir/flags.make
 
 CMakeFiles/oop_exercise_03.dir/main.cpp.o: CMakeFiles/oop_exercise_03.dir/flags.make
-CMakeFiles/oop_exercise_03.dir/main.cpp.o: main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ap/oop3/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/oop_exercise_03.dir/main.cpp.o"
+CMakeFiles/oop_exercise_03.dir/main.cpp.o: ../main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ap/oop3/built/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/oop_exercise_03.dir/main.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oop_exercise_03.dir/main.cpp.o -c /home/ap/oop3/main.cpp
 
 CMakeFiles/oop_exercise_03.dir/main.cpp.i: cmake_force
@@ -71,8 +71,8 @@ CMakeFiles/oop_exercise_03.dir/main.cpp.s: cmake_force
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ap/oop3/main.cpp -o CMakeFiles/oop_exercise_03.dir/main.cpp.s
 
 CMakeFiles/oop_exercise_03.dir/rectangle.cpp.o: CMakeFiles/oop_exercise_03.dir/flags.make
-CMakeFiles/oop_exercise_03.dir/rectangle.cpp.o: rectangle.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ap/oop3/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/oop_exercise_03.dir/rectangle.cpp.o"
+CMakeFiles/oop_exercise_03.dir/rectangle.cpp.o: ../rectangle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ap/oop3/built/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/oop_exercise_03.dir/rectangle.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oop_exercise_03.dir/rectangle.cpp.o -c /home/ap/oop3/rectangle.cpp
 
 CMakeFiles/oop_exercise_03.dir/rectangle.cpp.i: cmake_force
@@ -84,8 +84,8 @@ CMakeFiles/oop_exercise_03.dir/rectangle.cpp.s: cmake_force
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ap/oop3/rectangle.cpp -o CMakeFiles/oop_exercise_03.dir/rectangle.cpp.s
 
 CMakeFiles/oop_exercise_03.dir/point.cpp.o: CMakeFiles/oop_exercise_03.dir/flags.make
-CMakeFiles/oop_exercise_03.dir/point.cpp.o: point.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ap/oop3/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/oop_exercise_03.dir/point.cpp.o"
+CMakeFiles/oop_exercise_03.dir/point.cpp.o: ../point.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ap/oop3/built/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/oop_exercise_03.dir/point.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oop_exercise_03.dir/point.cpp.o -c /home/ap/oop3/point.cpp
 
 CMakeFiles/oop_exercise_03.dir/point.cpp.i: cmake_force
@@ -97,8 +97,8 @@ CMakeFiles/oop_exercise_03.dir/point.cpp.s: cmake_force
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ap/oop3/point.cpp -o CMakeFiles/oop_exercise_03.dir/point.cpp.s
 
 CMakeFiles/oop_exercise_03.dir/trigon.cpp.o: CMakeFiles/oop_exercise_03.dir/flags.make
-CMakeFiles/oop_exercise_03.dir/trigon.cpp.o: trigon.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ap/oop3/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/oop_exercise_03.dir/trigon.cpp.o"
+CMakeFiles/oop_exercise_03.dir/trigon.cpp.o: ../trigon.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ap/oop3/built/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/oop_exercise_03.dir/trigon.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oop_exercise_03.dir/trigon.cpp.o -c /home/ap/oop3/trigon.cpp
 
 CMakeFiles/oop_exercise_03.dir/trigon.cpp.i: cmake_force
@@ -110,8 +110,8 @@ CMakeFiles/oop_exercise_03.dir/trigon.cpp.s: cmake_force
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ap/oop3/trigon.cpp -o CMakeFiles/oop_exercise_03.dir/trigon.cpp.s
 
 CMakeFiles/oop_exercise_03.dir/quadrate.cpp.o: CMakeFiles/oop_exercise_03.dir/flags.make
-CMakeFiles/oop_exercise_03.dir/quadrate.cpp.o: quadrate.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ap/oop3/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/oop_exercise_03.dir/quadrate.cpp.o"
+CMakeFiles/oop_exercise_03.dir/quadrate.cpp.o: ../quadrate.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ap/oop3/built/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/oop_exercise_03.dir/quadrate.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oop_exercise_03.dir/quadrate.cpp.o -c /home/ap/oop3/quadrate.cpp
 
 CMakeFiles/oop_exercise_03.dir/quadrate.cpp.i: cmake_force
@@ -140,7 +140,7 @@ oop_exercise_03: CMakeFiles/oop_exercise_03.dir/trigon.cpp.o
 oop_exercise_03: CMakeFiles/oop_exercise_03.dir/quadrate.cpp.o
 oop_exercise_03: CMakeFiles/oop_exercise_03.dir/build.make
 oop_exercise_03: CMakeFiles/oop_exercise_03.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ap/oop3/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable oop_exercise_03"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ap/oop3/built/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable oop_exercise_03"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/oop_exercise_03.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -153,6 +153,6 @@ CMakeFiles/oop_exercise_03.dir/clean:
 .PHONY : CMakeFiles/oop_exercise_03.dir/clean
 
 CMakeFiles/oop_exercise_03.dir/depend:
-	cd /home/ap/oop3 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ap/oop3 /home/ap/oop3 /home/ap/oop3 /home/ap/oop3 /home/ap/oop3/CMakeFiles/oop_exercise_03.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ap/oop3/built && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ap/oop3 /home/ap/oop3 /home/ap/oop3/built /home/ap/oop3/built /home/ap/oop3/built/CMakeFiles/oop_exercise_03.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/oop_exercise_03.dir/depend
 

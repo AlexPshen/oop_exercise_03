@@ -1,3 +1,0 @@
-/home/ap/oop3/CMakeFiles/rebuild_cache.dir
-/home/ap/oop3/CMakeFiles/oop_exercise_03.dir
-/home/ap/oop3/CMakeFiles/edit_cache.dir

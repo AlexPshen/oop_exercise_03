@@ -1,1 +1,0 @@
-/usr/bin/c++     CMakeFiles/oop3.dir/main.cpp.o CMakeFiles/oop3.dir/rectangle.cpp.o CMakeFiles/oop3.dir/point.cpp.o CMakeFiles/oop3.dir/trigon.cpp.o CMakeFiles/oop3.dir/quadrate.cpp.o  -o oop3 
