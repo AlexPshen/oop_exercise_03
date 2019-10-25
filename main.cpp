@@ -20,6 +20,7 @@ void print_ERROR(int error_code){
         std::cout << "There is no item with the given index\n";
     }
     char c;
+    c = getchar();
     while(c != '\n' && c != EOF){
         c = getchar();
     }
