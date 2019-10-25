@@ -60,7 +60,7 @@ double quadrate::square() const{
     if(scalar1 == 0){
         mid = segment_length(top1, top2);
     } else if(scalar2 == 0){
-        mid = segment_length(top1, top2);
+        mid = segment_length(top1, top4);
     } else if(scalar3 == 0){
         mid = segment_length(top1, top3);
     }

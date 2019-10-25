@@ -38,25 +38,10 @@ int main(){
             fig* new_fig;
             if(strcmp(com2, "trigon") == 0){
                 new_fig = new trigon(std::cin);
-                if(!new_fig -> correct()){
-                    print_ERROR(2);
-                    delete new_fig;
-                    continue;
-                }
             } else if(strcmp(com2, "quadrate") == 0){
                 new_fig = new quadrate(std::cin);
-                if(!new_fig -> correct()){
-                    print_ERROR(2);
-                    delete new_fig;
-                    continue;
-                }
             } else if(strcmp(com2, "rectangle") == 0){
                 new_fig = new rectangle(std::cin);
-                if(!new_fig -> correct()){
-                    print_ERROR(2);
-                    delete new_fig;
-                    continue;
-                }
             } else{
                 print_ERROR(1);
             }
