@@ -6,13 +6,6 @@
 #include "trigon.h"
 #include "figure.h"
 
-bool trigon::correct() const{
-    if((top.x - l.x) * (r.y - l.y) == (top.y - l.y) * (r.x - l.x)){
-        return false;
-    }
-    return true;
-}
-
 double trigon::square() const{
     double mult1 = (r.x - l.x) * (top.y - l.y);
     double mult2 = (top.x - l.x) * (r.y - l.y);

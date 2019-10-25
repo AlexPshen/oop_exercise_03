@@ -43,7 +43,6 @@ public:
         }
     }
 
-    bool correct() const override;
     point center() const override;
     double square() const override;
     void print(std::ostream& os) const override;
